@@ -1,0 +1,13 @@
+{
+  "name": "vda/profiler",
+  "type": "library",
+  "description": "Simple profiler",
+  "keywords": ["profiler"],
+  "require": {
+    "php": ">=5.3.23"
+  },
+  "autoload": {
+    "psr-4": {"Vda\\Profiler\\": "src/"}
+  },
+  "minimum-stability": "dev"
+}
